@@ -1,0 +1,15 @@
+<html>
+    <body>
+    <p><b>Name:</b> {{template_name}}</p>
+    <strong>
+    <br>Words:</br>
+    </strong>
+    {%for word,count in word_list%}
+        <font face="Georgia, Arial, Garamond" size=3>
+        <br><i>{{word}}</i>, {{count}}</br>
+        </font>
+    {% endfor %}
+    </body>
+</html>
+
+
